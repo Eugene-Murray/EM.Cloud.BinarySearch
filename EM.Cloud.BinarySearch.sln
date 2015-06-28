@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM.Cloud.BinarySearch", "EM.Cloud.BinarySearch\EM.Cloud.BinarySearch.csproj", "{122C3072-D23A-423C-877F-4F175897DBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM.Cloud.BinarySearch.Tests", "EM.Cloud.BinarySearch.Tests\EM.Cloud.BinarySearch.Tests.csproj", "{DC36C244-D07A-449B-86D3-3D40F2F9C96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{122C3072-D23A-423C-877F-4F175897DBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122C3072-D23A-423C-877F-4F175897DBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122C3072-D23A-423C-877F-4F175897DBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122C3072-D23A-423C-877F-4F175897DBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC36C244-D07A-449B-86D3-3D40F2F9C96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC36C244-D07A-449B-86D3-3D40F2F9C96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC36C244-D07A-449B-86D3-3D40F2F9C96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC36C244-D07A-449B-86D3-3D40F2F9C96A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
