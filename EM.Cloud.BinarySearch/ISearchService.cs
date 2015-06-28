@@ -10,6 +10,7 @@ namespace EM.Cloud.BinarySearch
     {
         int FindWinner(int[] inputArray);
 
+
         object BinarySearchIterative(int[] inputArray, int? searchKey, int min, int max);
 
         object BinarySearchRecursive(int[] inputArray, int? searchKey, int min, int max);
