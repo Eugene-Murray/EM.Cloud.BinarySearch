@@ -11,7 +11,7 @@ namespace EM.Cloud.BinarySearch
         public int FindWinner(int[] inputArray)
         {
             Dictionary<int, int> winnersD = new Dictionary<int, int>();
-            winnersD.OrderBy(x => x.Key);
+            //winnersD.OrderBy(x => x.Key);
 
             int result = 0;
             foreach (var winner in inputArray)
@@ -21,8 +21,8 @@ namespace EM.Cloud.BinarySearch
                 else
                     winnersD.Add(winner, 1);
 
-                //var numWins = winnersD.Max().Value;
-                var numWins = winnersD.Aggregate((l, r) => l.Value > r.Value ? l : r).Value;
+                var numWins = winnersD.Max(x => x.Value);
+                //var numWins = winnersD.Aggregate((l, r) => l.Value > r.Value ? l : r).Value;
 
                 result = winnersD.First(x => x.Value == numWins).Key;
             }
